@@ -40,7 +40,7 @@ const Footer = () => {
 
         {/* Copyright */}
         <p className="text-sm mt-6 opacity-80">
-          &copy; {new Date().getFullYear()} All rights reserved. Designed with ❤️
+          &copy; {new Date().getFullYear()} All rights reserved. Designed By Rakesh Mummana & Srinu Badam
         </p>
 
       </div>

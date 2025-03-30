@@ -79,7 +79,7 @@ const WelcomePage = () => {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 1, duration: 0.8 }}
-          className="flex justify-center gap-6 mt-40"
+          className="flex justify-center gap-6 mt-30"
         >
           <a href="#" className="text-white text-2xl hover:text-gray-300 transition duration-300"><FaFacebook /></a>
           <a href="https://www.instagram.com/sri__srinivasa__saplayars?igsh=aXFmZDlqdmczbnZm" className="text-white text-2xl hover:text-gray-300 transition duration-300"><FaInstagram /></a>
@@ -87,7 +87,11 @@ const WelcomePage = () => {
           <a href="https://srisrinivasasaplayarspodili.blogspot.com/?m=1" className="text-white text-2xl hover:text-gray-300 transition duration-300"><FaGlobe /></a>
           <a href="https://maps.app.goo.gl/by78U36v3MFMoJab6" className="text-white text-2xl hover:text-gray-300 transition duration-300"><FaMapMarkerAlt /></a>
         </motion.div>
+
+        <div><p className="text-sm sm:text-base text-yellow-300 pt-10">Designed By Rakesh Mummana </p>
+      <p className="text-sm sm:text-base text-yellow-300 ">& Srinu Badam</p></div>
       </div>
+      
 
       {/* Scroll indicator */}
       <motion.div 
