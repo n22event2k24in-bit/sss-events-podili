@@ -4,15 +4,12 @@ const Hero = () => {
       <div className="container mx-auto px-4">
         {/* Heading */}
         <h1 className="text-3xl md:text-4xl font-bold text-red-500 mb-6">
-          Welcome to SSS Tent House!
+          Welcome to SSS Events!
         </h1>
 
         {/* Description */}
         <p className="max-w-3xl mx-auto text-lg md:text-xl text-gray-700 leading-relaxed">
-          RTH is a wedding designing and event planning company, set up almost
-          three decades ago with an extensive in-house production facility. From
-          idea to reality, from fabric to upholstery, and from flowers to
-          lighting, we bring your dream event to life.
+          SSS Events is a wedding designing and event planning company with nearly three decades of experience. We have a well-equipped in-house production facility, allowing us to handle everything from start to finish. Whether it’s selecting the perfect fabrics, designing beautiful decorations, arranging stunning floral setups, or creating mesmerizing lighting effects, we bring every detail of your dream event to life with creativity and perfection.
         </p>
 
         {/* Decorative Line Image */}

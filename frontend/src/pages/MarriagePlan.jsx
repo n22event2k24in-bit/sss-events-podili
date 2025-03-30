@@ -8,7 +8,7 @@ const MarriagePlan = () => {
           {/* Left Circular Image with Hover Border */}
           <div className="w-48 h-48 md:w-64 md:h-64 flex-shrink-0 rounded-full overflow-hidden shadow-lg transition-all duration-300 hover:border-4 hover:border-green-500">
             <img
-              src="plan1.jpg"
+              src="c.jpg"
               alt="Plan 1"
               className="w-full h-full object-cover transition-transform duration-300 hover:scale-105"
             />
@@ -22,7 +22,7 @@ const MarriagePlan = () => {
               
               {/* Heading */}
               <p className="text-2xl md:text-3xl font-bold mb-2 text-center animate-fadeInDown">
-                Plan a Marriage
+                Plan a Event
               </p>
 
               {/* Horizontal Lines & "With Us" Text */}
@@ -34,7 +34,7 @@ const MarriagePlan = () => {
 
               {/* First Vertical Image */}
               <img
-                src="doli.jpg"
+                src="sss.jpg"
                 alt="Doli"
                 className="w-full object-cover transition-transform duration-300 hover:scale-105"
               />
@@ -44,7 +44,7 @@ const MarriagePlan = () => {
             {/* Second Section with Border */}
             <div className="mt-4 w-52 md:w-96 h-auto shadow-lg rounded-lg overflow-hidden border-2 border-gray-300 py-6 px-2 bg-white">
               <img
-                src="plan-wedding.jpg"
+                src="sss1.jpg"
                 alt="Wedding Plan"
                 className="w-full object-cover transition-transform duration-300 hover:scale-105"
               />

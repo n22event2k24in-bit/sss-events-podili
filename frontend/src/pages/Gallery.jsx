@@ -13,7 +13,8 @@ const Gallery = () => {
   ];
 
   return (
-    <section id="gallery" className="py-16 sm:py-20 bg-gray-50">
+    <section id="gallery" className="py-16 sm:py-20 bg-gradient-to-br from-blue-300 to-purple-500">
+
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Header */}
         <motion.div
@@ -52,35 +53,25 @@ const Gallery = () => {
               </div>
 
               {/* Overlay */}
-              <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                <div className="absolute bottom-0 left-0 right-0 p-6">
-                  <h3 className="text-white text-xl font-semibold transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300">
-                    {item.title}
-                          </h3>
-                         <button
-                    className="text-white text-sm font-semibold transform translate-y-4 translate-x-4 group-hover:translate-y-0 transition-transform duration-300 cursor-pointer"
-                    onClick={() => navigate("/weddingGallery")}
-                  >
-                    View More...
-                  </button>
-                </div>
-              </div>
+             <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-100 md:opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+  <div className="absolute bottom-0 left-0 right-0 p-6">
+    <h3 className="text-white text-xl font-semibold transform translate-y-0 md:translate-y-4 group-hover:translate-y-0 transition-transform duration-300">
+      {item.title}
+    </h3>
+    <button
+      className="text-white text-sm font-semibold transform translate-y-0 md:translate-y-4 translate-x-4 group-hover:translate-y-0 transition-transform duration-300 cursor-pointer"
+      onClick={() => navigate("/weddingGallery")}
+    >
+      View More...
+    </button>
+  </div>
+</div>
             </motion.div>
           ))}
         </div>
 
         {/* View More Button */}
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.6, delay: 0.6 }}
-          className="text-center mt-12"
-        >
-          <button className="px-8 py-3 bg-black text-white rounded-full font-semibold hover:bg-gray-800 transition-colors duration-300 transform hover:scale-105">
-            View More
-          </button>
-        </motion.div>
+       
       </div>
     </section>
   );

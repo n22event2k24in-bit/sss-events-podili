@@ -9,6 +9,7 @@ import Venues from "./pages/Venues";
 import WeddingDecor from "./pages/WeddingDecor";
 import WeddingGallery from "./pages/WeddingGallery"; // Fixed the typo
 import WelcomePage from "./pages/WelcomePage";
+import ContactUs from "./pages/CotactUs";
 
 function App() {
   return (
@@ -22,9 +23,11 @@ function App() {
               <WelcomePage />
               <Hero />
               <Segments />
-              <WeddingDecor />
+              {/* <WeddingDecor /> */}
               <MarriagePlan />
               <Gallery />
+              <ContactUs />
+              {/* <Owner /> */}
               <Footer />
             </>
           }
