@@ -44,7 +44,7 @@ const MarriagePlan = () => {
             {/* Second Section with Border */}
             <div className="mt-4 w-52 md:w-96 h-auto shadow-lg rounded-lg overflow-hidden border-2 border-gray-300 py-6 px-2 bg-white">
               <img
-                src="sss1.jpg"
+                src="sss2.jpg"
                 alt="Wedding Plan"
                 className="w-full object-cover transition-transform duration-300 hover:scale-105"
               />
