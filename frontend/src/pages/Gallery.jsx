@@ -8,7 +8,7 @@ const Gallery = () => {
   const galleryItems = [
     { id: 1, image: "gallery1.jpg", title: "Wedding Celebration" },
     { id: 2, image: "gallery10.jpg", title: "Birthday Party" },
-    { id: 3, image: "haldii.jpeg", title: "House Warming & Haldi" },
+    { id: 3, image: "haldii.jpg", title: "House Warming & Haldi" },
 
   ];
 
