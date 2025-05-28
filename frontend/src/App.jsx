@@ -29,6 +29,7 @@ function App() {
               <ContactUs />
               {/* <Owner /> */}
               <Footer />
+
             </>
           }
         />
