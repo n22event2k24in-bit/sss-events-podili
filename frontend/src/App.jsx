@@ -5,8 +5,8 @@ import Gallery from "./pages/Gallery";
 import Hero from "./pages/Hero";
 import MarriagePlan from "./pages/MarriagePlan";
 import Segments from "./pages/Segments";
-import Venues from "./pages/Venues";
-import WeddingDecor from "./pages/WeddingDecor";
+// import Venues from "./pages/Venues";
+// import WeddingDecor from "./pages/WeddingDecor";
 import WeddingGallery from "./pages/WeddingGallery"; // Fixed the typo
 import WelcomePage from "./pages/WelcomePage";
 import ContactUs from "./pages/CotactUs";
