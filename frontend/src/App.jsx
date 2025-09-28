@@ -1,15 +1,14 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Navigation from "./components/Navigation";
+import HeroSection from "./components/HeroSection";
+import PhotoGallery from "./components/PhotoGallery";
+import ServicesSection from "./components/ServicesSection";
+import PackagesSection from "./components/PackagesSection";
+import AboutSection from "./components/AboutSection";
+import ContactSection from "./components/ContactSection";
+import Footer from "./components/Footer";
+import WeddingGallery from "./pages/WeddingGallery";
 
-import Footer from "./pages/Footer";
-import Gallery from "./pages/Gallery";
-import Hero from "./pages/Hero";
-import MarriagePlan from "./pages/MarriagePlan";
-import Segments from "./pages/Segments";
-// import Venues from "./pages/Venues";
-// import WeddingDecor from "./pages/WeddingDecor";
-import WeddingGallery from "./pages/WeddingGallery"; // Fixed the typo
-import WelcomePage from "./pages/WelcomePage";
-import ContactUs from "./pages/CotactUs";
 
 function App() {
   return (
@@ -20,22 +19,26 @@ function App() {
           path="/"
           element={
             <>
-              <WelcomePage />
-              <Hero />
-              <Segments />
-              {/* <WeddingDecor /> */}
-              <MarriagePlan />
-              <Gallery />
-              <ContactUs />
-              {/* <Owner /> */}
+              <Navigation />
+              <HeroSection />
+              <PhotoGallery />
+              <ServicesSection />
+              <PackagesSection />
+              <AboutSection />
+              <ContactSection />
               <Footer />
-
             </>
           }
         />
 
         {/* Other routes */}
-        <Route path="/weddingGallery" element={<WeddingGallery />} />
+        <Route path="/weddingGallery" element={
+          <>
+            <Navigation />
+            <WeddingGallery />
+            <Footer />
+          </>
+        } />
       </Routes>
     </Router>
   );
