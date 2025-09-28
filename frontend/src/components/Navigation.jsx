@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Menu, X, Home, Camera, Briefcase, Package, User, Phone } from 'lucide-react';
+import { Menu, X, Hop as Home, Camera, Briefcase, Package, User, Phone } from 'lucide-react';
 
 const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
